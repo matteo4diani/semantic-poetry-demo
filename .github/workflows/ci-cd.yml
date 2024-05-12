@@ -19,5 +19,6 @@ jobs:
             with:
               github-token: ${{ secrets.GITHUB_TOKEN }}
               pypi-token: ${{ secrets.PYPI_TOKEN }}
+              python-version: 3.11
         outputs:
           released: ${{ steps.test-release.outputs.released }}
