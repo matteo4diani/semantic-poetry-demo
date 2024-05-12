@@ -2,6 +2,13 @@
 
 
 
+## v1.0.0 (2024-05-12)
+
+### Breaking
+
+* feat!: greet someone ([`bdacd1b`](https://github.com/matteo4diani/semantic-poetry-demo/commit/bdacd1b709ac17c692144a4cb70f4920b15963d3))
+
+
 ## v0.1.0 (2024-05-12)
 
 ### Ci
