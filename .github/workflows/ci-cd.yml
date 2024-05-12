@@ -11,7 +11,7 @@ jobs:
     Release:
         runs-on: ubuntu-latest
         permissions: write-all
-    
+
         steps:
           - uses: matteo4diani/poetry-semantic-release@v0
             name: Test Semantic Release
