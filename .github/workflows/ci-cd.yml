@@ -1,0 +1,23 @@
+name: CI-CD
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+
+jobs:
+    Release:
+        runs-on: ubuntu-latest
+        permissions: write-all
+    
+        steps:
+          - uses: matteo4diani/poetry-semantic-release@v0
+            name: Test Semantic Release
+            id: test-release
+            with:
+              github-token: ${{ secrets.GITHUB_TOKEN }}
+              pypi-token: ${{ secrets.PYPI_TOKEN }}
+        outputs:
+          released: ${{ steps.test-release.outputs.released }}
