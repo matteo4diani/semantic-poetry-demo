@@ -2,6 +2,13 @@
 
 
 
+## v1.0.1 (2024-05-12)
+
+### Fix
+
+* fix: greet harder ([`953f7c7`](https://github.com/matteo4diani/semantic-poetry-demo/commit/953f7c72f856de32150e30570b00d8a0cb968b33))
+
+
 ## v1.0.0 (2024-05-12)
 
 ### Breaking
